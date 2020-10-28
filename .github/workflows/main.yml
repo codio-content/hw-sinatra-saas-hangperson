@@ -24,7 +24,7 @@ jobs:
     - name: convert
       run: |
         cd book-converter
-        python3 chips.py --generate ../source/hw-sinatra-saas-hangperson converted-chips -y
+        python3 chips.py --generate ../source/hw-ruby-intro converted-chips -y
         python3 chips.py converted-chips -y
 
     - name: Get Current Branch
