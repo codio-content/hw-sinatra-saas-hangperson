@@ -11,15 +11,15 @@ jobs:
     - name: Check Out
       uses: actions/checkout@v2
       with:
-        repository: saasbook/hw-sinatra-saas-hangperson-ci
-        path: .guides/secure/hw-sinatra-saas-hangperson-ci
+        repository: saasbook/hw-ruby-intro-ci
+        path: .guides/secure/hw-ruby-intro-ci
         token: ${{ secrets.GITHUB_TOKEN }}
 
     - name: Checkout tools repo
       uses: actions/checkout@v2
       with:
-        repository: saasbook/hw-sinatra-saas-hangperson
-        path: source/hw-sinatra-saas-hangperson
+        repository: saasbook/hw-ruby-intro
+        path: source/hw-ruby-intro
 
     - name: Checkout tools repo
       uses: actions/checkout@v2
